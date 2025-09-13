@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class SumOfNaturalNumbers {
-    // Method to find the sum of n natural numbers using loop
+   
     public static int sumOfN(int n) {
         int sum = 0;
         for (int i = 1; i <= n; i++) {
