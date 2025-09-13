@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class SmallestLargest {
-    // Method to find the smallest and largest of three numbers
+
     public static int[] findSmallestAndLargest(int number1, int number2, int number3) {
         int smallest = number1;
         int largest = number1;
