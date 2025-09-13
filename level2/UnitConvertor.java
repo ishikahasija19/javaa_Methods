@@ -19,7 +19,7 @@ public class UnitConvertor {
         return feet * feet2meters;
     }
 
-    // Example usage
+
     public static void main(String[] args) {
         System.out.println("10 km to miles: " + convertKmToMiles(10));
         System.out.println("10 miles to km: " + convertMilesToKm(10));
