@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class QuotientRemainder {
-    // Method to find the remainder and quotient of a number
+   
     public static int[] findRemainderAndQuotient(int number, int divisor) {
         int quotient = number / divisor;
         int remainder = number % divisor;
