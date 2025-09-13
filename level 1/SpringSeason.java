@@ -1,9 +1,9 @@
 import java.util.Scanner;
 
 public class SpringSeason {
-    // Method to check if the given month and day is in Spring Season
+
     public static boolean isSpringSeason(int month, int day) {
-        // Spring: March 20 to June 20
+
         if ((month == 3 && day >= 20 && day <= 31) ||
             (month == 4 && day >= 1 && day <= 30) ||
             (month == 5 && day >= 1 && day <= 31) ||
