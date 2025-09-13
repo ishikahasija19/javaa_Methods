@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class ChocolateDivision {
-    // Method to find the number of chocolates each child gets and remaining chocolates
+ 
     public static int[] findRemainderAndQuotient(int numberOfChocolates, int numberOfChildren) {
         int eachChildGets = numberOfChocolates / numberOfChildren;
         int remaining = numberOfChocolates % numberOfChildren;
