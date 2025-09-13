@@ -4,7 +4,7 @@ public class RandomArrayStats {
     public static int[] generate4DigitRandomArray(int size) {
         int[] arr = new int[size];
         for (int i = 0; i < size; i++) {
-            arr[i] = (int)(Math.random() * 9000) + 1000; // 1000 to 9999
+            arr[i] = (int)(Math.random() * 9000) + 1000; 
         }
         return arr;
     }
