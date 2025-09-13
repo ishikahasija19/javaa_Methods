@@ -7,7 +7,7 @@ public class MatrixOperations {
         Random rand = new Random();
         for (int i = 0; i < rows; i++) {
             for (int j = 0; j < cols; j++) {
-                mat[i][j] = rand.nextInt(10) + 1; // 1-10
+                mat[i][j] = rand.nextInt(10) + 1;
             }
         }
         return mat;
