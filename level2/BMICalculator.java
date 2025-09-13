@@ -15,7 +15,7 @@ public class BMICalculator {
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        double[][] data = new double[10][3]; // [weight, height(cm), BMI]
+        double[][] data = new double[10][3];
         String[] status = new String[10];
         for (int i = 0; i < 10; i++) {
             System.out.print("Enter weight (kg) for person " + (i + 1) + ": ");
