@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class TrigonometricFunctions {
-    // Method to calculate sine, cosine, and tangent of an angle in degrees
+
     public static double[] calculateTrigonometricFunctions(double angle) {
         double radians = Math.toRadians(angle);
         double sine = Math.sin(radians);
