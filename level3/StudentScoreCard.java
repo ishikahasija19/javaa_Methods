@@ -1,19 +1,18 @@
 import java.util.Scanner;
 
 public class StudentScoreCard {
-    // Generate random PCM scores for n students
+
     public static int[][] generateScores(int n) {
         int[][] scores = new int[n][3];
         for (int i = 0; i < n; i++) {
             for (int j = 0; j < 3; j++) {
-                scores[i][j] = (int)(Math.random() * 50) + 50; // 2-digit score (50-99)
+                scores[i][j] = (int)(Math.random() * 50) + 50;
             }
         }
         return scores;
     }
 
-    // Calculate total, average, percentage for each student
-    // Returns 2D array: [total, average, percentage]
+  
     public static double[][] calculateResults(int[][] scores) {
         double[][] results = new double[scores.length][3];
         for (int i = 0; i < scores.length; i++) {
@@ -27,7 +26,7 @@ public class StudentScoreCard {
         return results;
     }
 
-    // Display scorecard in tabular format
+   
     public static void displayScoreCard(int[][] scores, double[][] results) {
         System.out.println("Student\tPhysics\tChemistry\tMaths\tTotal\tAverage\tPercentage");
         for (int i = 0; i < scores.length; i++) {
